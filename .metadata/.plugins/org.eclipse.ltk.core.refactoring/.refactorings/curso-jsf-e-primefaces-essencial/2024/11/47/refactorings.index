@@ -1,0 +1,3 @@
+1731955315197	Rename resource 'webapp.META-INF'
+1731955325749	Move 'META-INF' to 'webapp'
+1731955371285	Move 'beans.xml' to 'META-INF'

@@ -1,0 +1,7 @@
+package com.lucas.erp.repository;
+
+import java.io.Serializable;
+
+public class Empresas implements Serializable {
+
+}

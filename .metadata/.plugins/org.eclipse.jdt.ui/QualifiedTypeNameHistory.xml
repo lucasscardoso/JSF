@@ -13,5 +13,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="com.lucas.erp.model.Empresa"/>
+    <fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaQuery"/>
     <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
