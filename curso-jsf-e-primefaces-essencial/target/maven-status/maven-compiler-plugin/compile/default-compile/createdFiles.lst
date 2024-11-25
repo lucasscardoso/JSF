@@ -1,0 +1,7 @@
+com\lucas\erp\model\Empresa.class
+com\lucas\erp\model\RamoAtividade.class
+com\lucas\erp\repository\CamadaPersistencia.class
+com\lucas\erp\repository\RamoAtividades.class
+com\lucas\erp\model\TipoEmpresa.class
+com\lucas\erp\repository\Empresas.class
+com\lucas\erp\repository\SchemaGeneration.class

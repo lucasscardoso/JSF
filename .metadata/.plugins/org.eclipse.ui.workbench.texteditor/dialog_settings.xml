@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="public List&lt;Empresa&gt; pesquisar(String nome){"/>
+		<list key="findhistory">
+			<item value="public List&lt;Empresa&gt; pesquisar(String nome){"/>
+		</list>
+	</section>
+</section>
