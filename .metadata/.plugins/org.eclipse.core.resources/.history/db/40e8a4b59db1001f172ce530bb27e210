@@ -1,0 +1,39 @@
+package com.algaworks.erp.controller;
+
+import java.io.Serializable;
+
+import javax.faces.bean.ViewScoped;
+import javax.inject.Named;
+
+import com.lucas.erp.model.Empresa;
+import com.lucas.erp.model.TipoEmpresa;
+
+@Named
+@ViewScoped
+public class GestaoEmpresasBean implements Serializable {
+
+
+	private static final long serialVersionUID = 1L;
+	
+	private Empresa empresa = new Empresa();
+	
+	public Empresa getEmpresa() {
+		return empresa;
+	}
+	
+	  public void setEmpresa(Empresa empresa) {
+	        this.empresa = empresa;
+	    }
+	
+	public void salvar() {
+		System.out.println("Razão Social: " + empresa.getRazaoSocial() + 
+				" - Nome Fantasia: " + empresa.getNomeFantasia() +
+				" - Tipo: " + empresa.getTipo());
+	}
+	
+	public TipoEmpresa[] getTipoEmpresa() {
+		return TipoEmpresa.values();
+	}
+
+	
+}
