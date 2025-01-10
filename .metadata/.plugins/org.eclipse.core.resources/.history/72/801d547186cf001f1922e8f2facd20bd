@@ -72,15 +72,13 @@
 				<h:panelGroup>
 				<p:inputText id="faturamento"  value="#{gestaoEmpresasBean.empresa.faturamento}" required="true" >
 					<f:convertNumber minFractionDigits="2"/>
-					<f:validateDoubleRange minimum="0"/>
 				</p:inputText>
 				
 				<p:message for="faturamento"/>
 				</h:panelGroup>
 				
 				<h:outputLabel/>
-				<p:commandButton value="Salvar" actionListener="#{gestaoEmpresasBean.salvar}"
-						update="@form"/>
+				<p:commandButton value="Salvar" actionListener="#{gestaoEmpresasBean.salvar}"/>
 				
 				<h:outputLabel/>
 				<p:commandLink value="Ajuda?" action="#{gestaoEmpresasBean.ajuda}"/>
