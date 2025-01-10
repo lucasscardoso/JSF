@@ -2,14 +2,14 @@ package com.algaworks.erp.controller;
 
 import java.io.Serializable;
 
+import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
-import javax.inject.Inject;
 import javax.inject.Named;
 
 import com.lucas.erp.model.Empresa;
 import com.lucas.erp.model.TipoEmpresa;
 
-@Named
+@ManagedBean  
 @ViewScoped
 public class GestaoEmpresasBean implements Serializable {
 
@@ -34,6 +34,9 @@ public class GestaoEmpresasBean implements Serializable {
 	    }
 	}
 	
+	public String  ajuda() {
+		return "AjudaGestaoEmpresas?faces-redirect=true";
+	}
 	
 	public Empresa getEmpresa() {
 		return empresa;
@@ -43,5 +46,14 @@ public class GestaoEmpresasBean implements Serializable {
 		return TipoEmpresa.values();
 	}
 
+
+	public void setEmpresa(Empresa empresa) {
+		this.empresa = empresa;
+	}
+	
+	
+
 	
 }
+
+//por motivos de versão do tomcat, precisa utilizar essa notação, agradeço a um colega de trabalho pela ajuda!

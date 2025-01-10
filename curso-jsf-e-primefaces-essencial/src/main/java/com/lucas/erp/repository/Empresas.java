@@ -24,31 +24,6 @@ public class Empresas implements Serializable {
 	}
 	
 	
-	
-	//public Empresa porID(Long id) {
-	//	return manager.find(Empresa.class, id);
-	//}
-	
-	//public List<Empresa> pesquisar(String nome){
-		
-	//	 if (nome == null || nome.trim().isEmpty()) {
-	 //           return new ArrayList<>();  // Retorna uma lista vazia se o nome for nulo ou vazio
-	//        }
-		 
-	//	TypedQuery<Empresa> query = manager.createQuery("from Empresa where nomeFantasia like :nomeFantasia", Empresa.class);
-	//	query.setParameter("nomeFantasia", nome + "%");
-	//	return query.getResultList();
-//	}
-	
-//	public Empresa guardar(Empresa empresa) {
-		//return manager.merge(empresa);
-//	}
-	
-//	public void remover(Empresa empresa) {
-//		empresa = porID(empresa.getId());
-	//	manager.remove(empresa);
-//	}
-	
 	 public Empresa porID(Long id) {
 	        return manager.find(Empresa.class, id);
 	    }

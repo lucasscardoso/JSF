@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
     <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="javax.persistence.Enumerated"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="javax.persistence.criteria.CriteriaQuery"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -20,4 +19,6 @@
     <fullyQualifiedTypeName name="com.lucas.erp.model.Empresa"/>
     <fullyQualifiedTypeName name="javax.faces.bean.RequestScoped"/>
     <fullyQualifiedTypeName name="javax.faces.bean.ViewScoped"/>
+    <fullyQualifiedTypeName name="javax.faces.bean.ManagedBean"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
 </qualifiedTypeNameHistroy>
